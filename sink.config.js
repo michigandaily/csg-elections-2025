@@ -25,7 +25,7 @@ export default defineConfig({
 	deployment: {
 		region: 'us-east-2',
 		bucket: 'test.michigandaily.com',
-		key: 'tmp/key',
+		key: '2025/csg-elections',
 		build: './dist',
 		profile: 'sink'
 	}
