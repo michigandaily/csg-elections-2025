@@ -27,4 +27,5 @@ pnpm-lock.yaml
 # Sourdough
 auth.json
 .daily-google-services.json
-src/data
+
+# src/data
