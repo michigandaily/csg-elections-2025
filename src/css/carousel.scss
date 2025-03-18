@@ -1,0 +1,100 @@
+h3 {
+    color: white;
+    font-size: 2.5vw;
+}
+
+.btn {
+	position: absolute;
+	z-index: 3;
+	top: 30%;
+	transform: translate(-20%, 0);
+
+	opacity: 1;
+	color: white;
+	font-size: 5rem;
+
+	background: none;
+	border: none;
+}
+
+.right {
+	right: 0;
+	margin-right: -2.5rem;
+}
+
+.left {
+	left: 0;
+	margin-left: -2rem;
+}
+
+#ballot,
+#recent {
+	max-width: 75rem;
+	margin: 0 auto;
+	padding: 0.75rem 0.75rem;
+	box-sizing: border-box;
+}
+
+#ballot > div,
+#recent > div {
+	position: relative;
+}
+
+
+ul {
+	list-style: none;
+
+	display: grid;
+	grid-auto-flow: column;
+
+	overflow-x: scroll;
+	scroll-snap-type: x mandatory;
+
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+
+	margin: 0;
+	padding: 0;
+
+	position: relative;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+ul::-webkit-scrollbar {
+	display: none;
+}
+
+li {
+	scroll-snap-align: center;
+	position: relative;
+
+	padding: 1rem 1rem;
+}
+
+li > a {
+	text-decoration: none;
+	color: inherit;
+}
+
+article {
+    background-color: white;
+	display: flex;
+	flex-direction: column;
+	width: 325px;
+    height: 300px;
+    padding: 1rem 1rem 3rem;
+}
+
+article img {
+	aspect-ratio: 3 / 2;
+	object-fit: contain;
+	width: inherit;
+}
+
+article p {
+	width: 100%;
+	font-size: 1.2rem;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
