@@ -1,0 +1,24 @@
+.ballot-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    background-color: rgb(255, 237, 216);
+    margin-left: 1.5vw;
+
+    h3 {
+        margin: 0.5rem;
+        color: rgb(47, 47, 47);
+        font-size: 1.5rem;
+        background-color: rgb(232, 199, 158);
+        background-size: cover;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.candidates{
+    text-align: left;
+    padding: 0rem 1rem;
+    width: 80%;
+}
