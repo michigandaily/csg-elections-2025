@@ -14,14 +14,23 @@ header {
 	margin-top: 1rem;
 
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	color: white;
 
 	h1 {
-		font-size: 5rem;
-		text-shadow: 4px 3px black;
+		font-size: 4.5rem;
+		text-shadow: 4px 3px 5px rgb(0, 0, 0, 0.5);
 		text-align: center;
+		margin: 0.5rem;
+	}
+
+	#logo {
+		width: 6rem;
+		height: auto;
+		margin: 1rem 0rem;
+		filter: drop-shadow(4px 3px 5px rgb(0, 0, 0, 0.5)); 
 	}
 }
 
