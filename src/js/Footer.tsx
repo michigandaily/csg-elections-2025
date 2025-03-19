@@ -11,7 +11,7 @@ const Footer = () => {
 						<b>Design and development by Emily Chen, Julia Mei, Jessica Li</b>
 					</small>
 					<small>
-						<b>Artwork by</b>
+						<b>Photos by Akul Gunukula</b>
 					</small>
 					<small>420 Maynard Street, Ann Arbor, MI 48105</small>
 				</div>
