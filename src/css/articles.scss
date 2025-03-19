@@ -8,3 +8,12 @@
     margin: auto;
     margin-top: 1rem;
 }
+#ballot, #recent {
+    width:100%;
+}
+
+@media (max-width: 767px) {
+  h3 {
+    font-size: 1.1rem;
+  }
+}

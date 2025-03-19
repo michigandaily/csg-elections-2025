@@ -58,3 +58,13 @@
     color: black;
     margin: 2vw 2.5vw 2vw 2.5vw;
 }
+
+@media (max-width: 767px) {
+    .info-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .ballot-container, .review-container {
+        width: 100%;
+    }
+}

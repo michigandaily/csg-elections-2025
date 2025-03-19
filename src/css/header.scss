@@ -53,3 +53,15 @@ header {
 #vote-button:hover {
 	background-color: #012e6a;
 }
+
+@media (max-width: 767px) {
+	.header-container {
+		h1 {
+			font-size: 2.5rem;
+		}
+
+		#logo {
+			width: 5rem;
+		}
+	}
+}
