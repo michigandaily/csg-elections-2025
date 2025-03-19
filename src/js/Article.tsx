@@ -2,13 +2,11 @@ import { useRef, useEffect } from 'react';
 
 const Article = ({
 	title,
-	author,
 	link,
 	image,
 	alt
 }: {
 	title: string;
-	author: string;
 	link: string | undefined;
 	image: string | undefined;
 	alt: string | undefined;
@@ -40,7 +38,6 @@ const Article = ({
 			<article ref={ref}>
 				<img loading="lazy" src={image} alt={alt} />
 				<p>{title}</p>
-				<address>{author}</address>
 			</article>
 		</a>
 	);

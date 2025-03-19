@@ -1,0 +1,27 @@
+footer {
+  color: black;
+  padding: 1rem;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+footer #credit {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+footer #credit-copy {
+  display: flex;
+  flex-direction: column;
+}
+
+footer #copyright {
+  align-self: center;
+}
+
+#logo {
+    max-width: 100px;
+}

@@ -4,7 +4,6 @@ import '../css/carousel.scss';
 
 type Articles = {
 	Title: string;
-	Author: string;
 	URL_Link?: string;
 	'Alt Text'?: string;
 	Image_Link?: string;
@@ -52,7 +51,6 @@ const Carousel = ({
 						<li key={article.Title}>
 							<Article
 								title={article.Title}
-								author={article.Author}
 								link={article.URL_Link}
 								image={article.Image_Link}
 								alt={article['Alt Text']}
