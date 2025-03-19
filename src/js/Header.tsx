@@ -7,7 +7,6 @@ const Header = () => {
 					<a href="https://www.michigandaily.com/">
 						<img src="src/assets/logo-small-white.png" alt="" id="logo"></img>
 					</a>
-					<h1>2025 CSG Election Guide</h1>
 				</div>
 				{/* TODO: update with voting site link */}
 				<a href="https://www.michigandaily.com/" id="vote-button">
