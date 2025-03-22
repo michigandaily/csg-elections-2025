@@ -10,7 +10,7 @@ header {
 	background-size: cover;
 	width: 97vw;
 	height: auto;
-  	padding: 28vh 0;
+	padding: 38vh 0;
 	margin-top: 1rem;
 
 	position: relative;
@@ -29,12 +29,12 @@ header {
 
 	#logo {
 		position: absolute;
-    	bottom: 2rem;
+		bottom: 2rem;
 		transform: translateX(-50%);
 		width: 6rem;
 		height: auto;
 		margin: 1rem 0rem;
-		filter: drop-shadow(4px 3px 5px rgb(0, 0, 0, 0.5));
+		filter: drop-shadow(8px 3px 5px rgb(0, 0, 0, 0.5));
 	}
 }
 
@@ -58,14 +58,23 @@ header {
 	background-color: #012e6a;
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 800px) {
 	.header-container {
 		h1 {
 			font-size: 2.5rem;
 		}
 
 		#logo {
-			width: 5rem;
+			width: 3rem;
+			bottom: 0rem;
 		}
+
+		width: 100%;
+		height: auto;
+		padding: 8vh 0;
+	}
+
+	#vote-button {
+		width: 100%;
 	}
 }
