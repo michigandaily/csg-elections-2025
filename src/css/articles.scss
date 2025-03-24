@@ -1,20 +1,25 @@
-.articles-container{
-    display: flex;
-    flex-direction: column;
-    background-color: #004aad;
-    color: white;
-    align-items: center;
-    width: 100%;
-    margin: auto;
-    margin-top: 1rem;
-    padding-bottom: 2rem;
+.articles-container {
+	display: flex;
+	flex-direction: column;
+	background-color: #004aad;
+	color: white;
+	align-items: center;
+	width: 100%;
+	margin: auto;
+	margin-top: 1rem;
+	padding-bottom: 2rem;
+
+	.carousel-container {
+		max-width: 90%;
+	}
 }
-#ballot, #recent {
-    width:100%;
+#ballot,
+#recent {
+	width: 100%;
 }
 
 @media screen and (max-width: 800px) {
-  h3 {
-    font-size: 1.1rem;
-  }
+	h3 {
+		font-size: 1.1rem;
+	}
 }
