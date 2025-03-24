@@ -15,7 +15,11 @@
 			"party": "Human Rights Party",
 			"url": "https://www.michigandaily.com/news/student-government/introducing-the-human-rights-party-csg-2025-ticket-keshava-demerath-shanti/"
 		},
-		{ "candidate": "Tony Lui and Brandon Truong", "party": "Independent", "url": "" }
+		{
+			"candidate": "Tony Liu and Brandon Truong",
+			"party": "Independent",
+			"url": "https://www.michigandaily.com/news/student-government/introducing-the-independent-csg-2025-ticket-tony-liu-and-brandon-truong/"
+		}
 	],
 	"dpss": [
 		{ "candidate": "Natalia Dussán", "party": "", "url": "" },
