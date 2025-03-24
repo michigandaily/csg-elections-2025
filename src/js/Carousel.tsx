@@ -9,15 +9,7 @@ type Articles = {
 	Image_Link?: string;
 };
 
-const Carousel = ({
-	title,
-	id,
-	articles,
-}: {
-	title: string;
-	id: string;
-	articles: Articles[];
-}) => {
+const Carousel = ({ title, id, articles }: { title: string; id: string; articles: Articles[] }) => {
 	const carousel = useRef<HTMLUListElement>(null);
 	const [listening, setListener] = useState(false);
 	const [scroll, setScroll] = useState(0);

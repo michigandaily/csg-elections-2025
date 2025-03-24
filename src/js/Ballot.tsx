@@ -34,13 +34,17 @@ const Ballot = () => {
 			<h3>Constitutional Amendments</h3>
 			<div className="candidates">
 				{candidates.amendments.map((candidate) => {
-					return (
-						<p key={candidate}>
-							☐ {candidate}
-						</p>
-					);
+					return <p key={candidate}>☐ {candidate}</p>;
 				})}
 			</div>
+			<h3>Elected representatives</h3>
+			<p>
+				Varies by school / college. Click{' '}
+				<a href="https://docs.google.com/spreadsheets/d/1SrA8hGbhwkzDQrAKSX2jpYbeRVnXCpsNx0aMs9UQxNE/edit?gid=0#gid=0">
+					here
+				</a>{' '}
+				to learn more.
+			</p>
 		</div>
 	);
 };

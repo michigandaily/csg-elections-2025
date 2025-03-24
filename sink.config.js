@@ -10,9 +10,18 @@ export default defineConfig({
 		},
 		{
 			type: 'sheet',
-			id: '',
+			id: '1YR9LW_KBqblCGVrSc1jcsmEeI4_3ofRLXnirZmu_SAk',
+			sheetId: '670490058',
+			output: 'src/data/recent_articles.json',
+			extension: '.json',
+			auth: '~/.daily-google-services.json'
+		},
+		{
+			type: 'sheet',
+			id: '1YR9LW_KBqblCGVrSc1jcsmEeI4_3ofRLXnirZmu_SAk',
 			sheetId: '0',
-			output: '',
+			output: 'src/data/ballot_articles.json',
+			extension: '.json',
 			auth: '~/.daily-google-services.json'
 		},
 		{

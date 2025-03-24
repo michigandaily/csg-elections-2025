@@ -8,10 +8,10 @@ const Footer = () => {
 				<div id="credit-copy">
 					<b>The Michigan Daily</b>
 					<small>
-						<b>Design and development by Emily Chen, Julia Mei, Jessica Li</b>
+						<b>Design and development by Emily Chen, Julia Mei, Jessica Li and Darrin Zhou</b>
 					</small>
 					<small>
-						<b>Photos by Akul Gunukula</b>
+						<b>Photo by Akul Gunukula</b>
 					</small>
 					<small>420 Maynard Street, Ann Arbor, MI 48105</small>
 				</div>

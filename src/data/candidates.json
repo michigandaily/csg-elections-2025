@@ -2,7 +2,7 @@
 	"executive": [
 		"Eric Veal Jr and Lucas Korn - EMPOWER MICHIGAN",
 		"Isaac Gardner and Robert 'Silas' Ou - CHANGE",
-		"Abigail O'Connell/Keshava Demerath-Shanti  - Human Rights Party",
+		"Keshava Demerath-Shanti  - Human Rights Party",
 		"Tony Lui and Brandon Truong - Unaffiliated"
 	],
 	"dpss": [
@@ -18,8 +18,9 @@
 		"Zach Kapner",
 		"Miles Conde"
 	],
-    "amendments": [
-        "CA 14-008: Coast to Coast Representation Act Second one"
-    ]
-
+	"amendments": [
+		"CA 14-008: Coast to Coast Representation Act Second one",
+		"CA 14-009: Equal Campaign Finance Act",
+		"CA 14-010: Establishing Executive Term Limits"
+	]
 }

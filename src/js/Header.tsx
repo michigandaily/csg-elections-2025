@@ -1,20 +1,19 @@
-import "../css/header.scss"
+import '../css/header.scss';
 
 const Header = () => {
-    return (
-			<header>
-				<div className="header-container">
-					<a href="https://www.michigandaily.com/">
-						<img src="src/assets/logo-small-white.png" alt="" id="logo"></img>
-					</a>
-				</div>
-				{/* TODO: update with voting site link */}
-				<a href="https://www.michigandaily.com/" id="vote-button">
-					<h1>Vote HERE March 26-27</h1>
+	return (
+		<header>
+			<div className="header-container">
+				<a href="https://www.michigandaily.com/">
+					<img src="src/assets/logo-small-white.png" alt="" id="logo"></img>
 				</a>
-			</header>
-		);
-}
+			</div>
+			{/* TODO: update with voting site link */}
+			<a href="https://vote.umich.edu/" id="vote-button">
+				<h1>Vote HERE March 26-27</h1>
+			</a>
+		</header>
+	);
+};
 
 export default Header;
-
