@@ -35,7 +35,7 @@ const Carousel = ({ title, id, articles }: { title: string; id: string; articles
 	}, []);
 
 	return (
-		<section id={id}>
+		<section id={id} className='carousel-container'>
 			<h3>{title}</h3>
 			<div>
 				<ul ref={carousel}>

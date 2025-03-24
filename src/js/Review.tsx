@@ -23,6 +23,7 @@ const Review = () => {
 				></iframe>
 				<h2>A historic year of student government part one: SHUT IT DOWN</h2>
 				<p>Glenn Hedin</p>
+				<p className='read-more'>Read more &#8594;</p>
 			</a>
 			<a
 				href="https://www.michigandaily.com/news/student-government/a-historic-year-of-student-government-part-two-trumps-shadow/"
@@ -34,6 +35,7 @@ const Review = () => {
 				></img>
 				<h2>A historic year of student government part two: Trump&apos;s shadow</h2>
 				<p>Glenn Hedin</p>
+				<p className='read-more'>Read more &#8594;</p>
 			</a>
 		</div>
 	);

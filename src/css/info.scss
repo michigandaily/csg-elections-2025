@@ -22,8 +22,8 @@
 
 .candidates {
 	text-align: left;
-	padding: 0rem 1rem;
-	width: 80%;
+	padding: 1rem 1rem;
+	width: 85%;
 }
 
 /*Info.tsx*/
@@ -48,24 +48,25 @@
 	h2 {
 		margin: 0.5rem;
 		padding: 0.5rem 0rem;
-		margin-bottom: 0;
+		margin-bottom: 0.5rem;
 		padding-bottom: 0;
 		color: black;
-		font-size: 3rem;
+		font-size: 2.5rem;
 		text-decoration: none;
+		width: 90%;
 	}
 
 	iframe,
 	img {
-		width: 100%;
+		width: 90%;
 		height: auto;
 		margin-bottom: 0;
-		padding-left: 2ch;
+		margin-top: 2rem;
 	}
 
 	iframe {
-		padding: 1em;
-		margin-top: 2em;
+		// padding: 1em;
+		margin-top: 1em;
 		margin-bottom: 0;
 		height: 535px;
 	}
@@ -75,17 +76,56 @@
 		text-decoration: none;
 		font-size: 1.5rem;
 		padding-left: 0.5em;
+		margin-top: 0.5rem;
+		margin-bottom: 0.5rem;
 	}
 	.article-link {
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
 		width: 90%;
-		padding-left: 2ch;
+		padding: 1rem 1rem;
 	}
+
+	.article-link:hover {
+		background-color: rgb(230, 230, 230);
+		transition-duration: 0.2s;
+	}
+
+	.read-more {
+		color: rgb(103, 102, 102);
+		padding-top: 0rem;
+		text-decoration: underline;
+	}
+}
+.candidate-name {
+	margin: 0.3rem;
+}
+.candidate-party {
+	font-weight: bold;
+	margin-left: 2rem;
+	font-size: large;
+	margin-top: 0;
+	color: rgb(0, 0, 0);
 }
 
 @media screen and (max-width: 800px) {
+	h1 {
+		text-align: center;
+		font-size: 2rem;
+	}
+
+	.ballot-container h3{
+		font-size: 1.5rem;
+	}
+
+	.candidates{
+		width: 95%;
+	}
+
+	.candidate-name{
+		font-size: 1.25rem;
+	}
 	.info-container {
 		flex-direction: column;
 	}
