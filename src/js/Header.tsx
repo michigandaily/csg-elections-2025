@@ -5,7 +5,7 @@ const Header = () => {
 		<header>
 			<div className="header-container">
 				<a href="https://www.michigandaily.com/">
-					<img src="src/assets/logo-small-white.png" alt="" id="logo"></img>
+					<img src="logo-small-white.png" alt="" id="logo"></img>
 				</a>
 			</div>
 			{/* TODO: update with voting site link */}

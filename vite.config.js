@@ -12,11 +12,11 @@ export default defineConfig({
 		react(),
 		dsv({ include: ['**.csv', '**.tsv', '**.dsv'] }),
 		nunjucks({
-			hed: 'The Michigan Daily',
+			hed: '2025 CSG Elections Guide',
 			dek: 'Description',
 			social_img: '',
 			google_analytics: '',
-			url: 'https://test.michigandaily.com/tmp/key'
+			url: 'https://test.michigandaily.com/2025/csg-elections'
 		})
 	]
 });

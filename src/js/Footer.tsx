@@ -4,7 +4,7 @@ const Footer = () => {
 	return (
 		<footer>
 			<div id="credit">
-				<img id="logo" className="logo" src="src/assets/logo-small.svg" alt="Michigan Daily Logo" />{' '}
+				<img id="logo" className="logo" src='logo-small.svg' alt="Michigan Daily Logo" />{' '}
 				<div id="credit-copy">
 					<b>The Michigan Daily</b>
 					<small>
