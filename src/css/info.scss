@@ -22,8 +22,8 @@
 
 .candidates {
 	text-align: left;
-	padding: 0rem 1rem;
-	width: 80%;
+	padding: 1rem 1rem;
+	width: 85%;
 }
 
 /*Info.tsx*/
@@ -83,6 +83,16 @@
 		width: 90%;
 		padding-left: 2ch;
 	}
+}
+.candidate-name{
+	margin: 0.3rem;
+}
+.candidate-party{
+	font-weight: bold;
+	margin-left: 2rem;
+	font-size: large;
+	margin-top: 0;
+	color: rgb(0, 0, 0);
 }
 
 @media screen and (max-width: 800px) {
