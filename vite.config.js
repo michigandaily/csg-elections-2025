@@ -14,7 +14,7 @@ export default defineConfig({
 		nunjucks({
 			hed: '2025 CSG Election Guide',
 			dek: "The Michigan Daily's full guide to the 2025 CSG election, including information on executive ticket candidates, constitutional amendments and more.",
-			social_img: 'src/assets/csg-banner.png',
+			social_img: 'https://www.michigandaily.com/wp-content/uploads/2025/03/csg-banner.png',
 			google_analytics: '',
 			url: 'https://specials.michigandaily.com/2025/csg-elections'
 		})
