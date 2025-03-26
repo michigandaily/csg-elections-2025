@@ -35,8 +35,9 @@
 		{ "candidate": "Miles Conde", "party": "", "url": "" }
 	],
 	"amendments": [
-		{ "candidate": "CA 14-008: Coast to Coast Representation Act Second one", "url": "" },
+		{ "candidate": "CA 14-008: Coast to Coast Representation Act", "url": "" },
 		{ "candidate": "CA 14-009: Equal Campaign Finance Act", "url": "" },
-		{ "candidate": "CA 14-010: Establishing Executive Term Limits", "url": "" }
+		{ "candidate": "CA 14-010: Establishing Executive Term Limits", "url": "" },
+		{ "candidate": "CA-14-011: Reforming the Judicial Appointment Commission", "url": "" }
 	]
 }
