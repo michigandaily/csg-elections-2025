@@ -4,11 +4,13 @@ const Footer = () => {
 	return (
 		<footer>
 			<div id="credit">
-				<img id="logo" className="logo" src="src/assets/logo-small.svg" alt="Michigan Daily Logo" />{' '}
+				<img id="logo" className="logo" src="logo-small.svg" alt="Michigan Daily Logo" />
 				<div id="credit-copy">
 					<b>The Michigan Daily</b>
 					<small>
-						<b>Design and development by Emily Chen, Julia Mei, Jessica Li and Darrin Zhou</b>
+						<b>Designed by Edith Pendell</b>
+						<br></br>
+						<b>Developed by Emily Chen, Julia Mei, Jessica Li and Darrin Zhou</b>
 					</small>
 					<small>
 						<b>Photo by Akul Gunukula</b>
